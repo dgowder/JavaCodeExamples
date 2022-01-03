@@ -24,7 +24,7 @@ public class ArrayContainsElementOrNot {
 		}
 		else
 		{
-			System.out.println("Element not available");
+			System.out.println("Element is not available");
 		}
 	}
 
