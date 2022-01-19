@@ -35,6 +35,19 @@ public class FindingSmallestNumber {
 		}
 		System.out.println(smallNum);
 	}
+	
+	public void findMaxNumber()
+	{
+		int maxNum=Integer.MIN_VALUE;
+		for (int i=0;i<numbers.length;i++)
+		{
+			if(numbers[i]>maxNum)
+			{
+			maxNum=numbers[i];
+			}
+		}
+		System.out.println(maxNum);
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -42,6 +55,7 @@ FindingSmallestNumber smallNum = new FindingSmallestNumber();
 smallNum.usingArray();
 smallNum.usingCollections();
 smallNum.ownSorting();
+smallNum.findMaxNumber();
 	}
 
 }
